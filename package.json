@@ -1,0 +1,30 @@
+{
+  "scripts": {
+    "start": "node index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.2",
+    "winston": "^3.14.1"
+  },
+  "name": "server",
+  "description": "MindSupport is a mental health application designed to provide personalized support, recommendations, and interactive engagement for users seeking to improve their emotional well-being. The app integrates AI technology to offer tailored suggestions based on users' moods and experiences.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ujwalpanday1/MindSupport.git"
+  },
+  "author": "ujwal panday",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ujwalpanday1/MindSupport/issues"
+  },
+  "homepage": "https://github.com/Ujwalpanday1/MindSupport#readme"
+}
