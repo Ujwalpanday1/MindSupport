@@ -14,6 +14,8 @@ const userSchema=new mongoose.Schema({
     currentMode: { type: String },
     email: { type: String, unique: true, required: true },
     password: { type: String, select: false, required: true },
+    religion:{type:"string",},
+    gender:{type:"string"},
     verified:{type:Boolean,default:false}
 })
 
