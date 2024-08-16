@@ -4,6 +4,8 @@
   },
   "type": "module",
   "dependencies": {
+    "@google/generative-ai": "^0.17.0",
+    "axios": "^1.7.4",
     "bcrypt": "^5.1.1",
     "cookie-parser": "^1.4.6",
     "dotenv": "^16.4.5",
@@ -11,6 +13,7 @@
     "http": "^0.0.1-security",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.5.2",
+    "puppeteer": "^23.1.0",
     "winston": "^3.14.1"
   },
   "name": "server",

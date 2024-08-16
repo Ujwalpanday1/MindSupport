@@ -18,7 +18,6 @@ const userSchema=new mongoose.Schema({
     gender:{type:"string"},
     verified:{type:Boolean,default:false}
 })
-
 const User=mongoose.model("User",userSchema);
 
 export default User;
